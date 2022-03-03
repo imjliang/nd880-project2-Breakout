@@ -8,6 +8,10 @@ A breakout trader is a type of trader that uses a breakout strategy. This strate
 
 Many breakout traders use technical analysis to identify these areas, often using trendlines or price patterns. A breakout trader looks for patterns, for example, instances where the price of a security has been resistant to moving above or below a specific price level or price area. Then, the trader attempts to profit by entering a trade in the breakout direction, assuming that the price will continue to move in that direction.
 
+## Instructions and Install Packages
+
+I am having troubles and conflicts when installing the required libraries declared in `requirements.txt`. The codes runs successful on Udacity's workspace. However, some codes are failed locally such as function `calculate_kstest`, which returns different ks_statics and p_values with the grader. I think the version of kstest package I am using locally is different with the one used in Udacity. 
+
 ### Main Files: Jupyter Structure
 
 ```
